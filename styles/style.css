@@ -33,11 +33,11 @@ section {
     padding: 1.5em;
 }
 
-.header {
+#product {
     letter-spacing: 5px;
 }
 
-.title {
+#item {
     font-family: 'Fraunces', serif;
     font-size: 2.3rem;
     font-weight: bold;
@@ -45,7 +45,7 @@ section {
     margin: 0.4em 0 0.4em 0;
 }
 
-.text {
+#description {
     line-height: 1.5em;
     color: hsl(228, 12%, 48%);
 }
@@ -55,7 +55,7 @@ section {
     font-family: 'Fraunces', serif;
 }
 
-.newPrice {
+#price {
     font-family: 'Fraunces', serif;
     font-weight: bold;
     font-size: 2.3rem;
@@ -63,11 +63,12 @@ section {
     vertical-align: middle;
 }
 
-.oldPrice {
+#oldPrice {
     font-family: 'Fraunces', serif;
     color: hsl(228, 12%, 48%);
     vertical-align: middle;
     padding-left: 0.5em;
+    text-decoration: line-through;
 }
 
 button {
