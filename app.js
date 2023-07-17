@@ -1,4 +1,4 @@
-const url = "../data/data.json";
+const url = "./data/data.json";
 const screenWidth = window.screen.availWidth;
 console.log(screenWidth);
 const product = document.getElementById("product");
