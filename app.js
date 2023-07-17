@@ -45,8 +45,5 @@ function use(data){
         prices = document.createTextNode(new Intl.NumberFormat('en-US', {style: 'currency', currency: 'USD'}).format(element.oldPrice));
         oldPrice.appendChild(prices);
 
-        
-
-
     });
 }
