@@ -43,7 +43,7 @@ section {
 }
 
 #item {
-    font-family: 'Fraunces', serif;
+    font-family: Fraunces, serif;
     font-size: 2.3rem;
     font-weight: bold;
     line-height: 1em;
@@ -69,7 +69,7 @@ section {
 }
 
 #oldPrice {
-    font-family: 'Fraunces', serif;
+    font-family: Fraunces, serif;
     color: hsl(228, 12%, 48%);
     vertical-align: middle;
     padding-left: 0.5em;
