@@ -18,11 +18,11 @@ function use(data){
     let text = "";
     let prices = 123456.789;
     data.forEach(element => {
-        
+
         const image = document.createElement('img');
         image.setAttribute('alt', "Product image");
 
-        if (screenWidth < 600) {
+        if (screenWidth < 590) {
             image.setAttribute('src', element.mobileDesign);
         } else {
             image.setAttribute('src', element.desktopDesign);
@@ -32,7 +32,7 @@ function use(data){
 
         text = document.createTextNode((element.product).toUpperCase());
         product.appendChild(text);
-        
+
         text = document.createTextNode(element.item);
         item.appendChild(text);
 
