@@ -39,11 +39,11 @@ section {
 
 #product {
     letter-spacing: 5px;
-    font-weight:lighter;
+    font-weight: lighter;
 }
 
 #item {
-    font-family: Fraunces, serif;
+    font-family: 'Fraunces', serif;
     font-size: 2.3rem;
     font-weight: bold;
     line-height: 1em;
@@ -51,7 +51,7 @@ section {
 }
 
 #description {
-    line-height: 1.5em;
+    line-height: 1.7em;
     color: hsl(228, 12%, 48%);
 }
 
@@ -133,6 +133,10 @@ button > img {
 
     .right {
         padding: 2em;
+    }
+
+    #item {
+        margin: 0.6em 0 0.6em 0;
     }
 
 }
